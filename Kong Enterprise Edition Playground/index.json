@@ -7,7 +7,6 @@
     "details": {
         "steps": [
             { "title": "Sandox", "text": "step1.md" }
-//            { "title": "Install HTTPie", "text": "step6.md" }
         ],
         "intro": {
             "text": "intro.md",
