@@ -21,7 +21,10 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Kong", "port": 8002}],
+        "dashboards": [
+        {"name": "Kong01", "port": 8002, "host":"host01"},
+        {"name": "Kong02", "port": 8002, "host":"client01"}
+    ],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
