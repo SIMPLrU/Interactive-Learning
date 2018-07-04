@@ -13,7 +13,6 @@
         "intro": {
             "text": "intro.md",
             "courseData": "courseBase.sh",
-            "code":"env-init.sh",
             "credits": "Developed in partnership with SIMPLrU"
         }
     },
