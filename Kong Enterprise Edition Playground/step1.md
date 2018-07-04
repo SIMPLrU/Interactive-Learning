@@ -1,5 +1,24 @@
-You will need to create a custom network to allow the containers to discover and communicate with each other. In this example kong-net is the network name; you can use any name
-`
-docker network create kong-net
+Preloading….Please stand by while your environment is setting up…..
+
+
+High Level Steps
+1. CLI - Login to your BinTray Credentials 
+2. Pull the latest Docker Images
+3. Tag your image for easier management
+4. Create a docker network called kong-net
+5. Pull and install database(postgres)
+6. Export your Kong E.E. license
+7. Run Kong migrations
+8. Install and start Kong E.E.
+9. Verify installation
+
+
+In lieu of CURL commands, you will use HTTP commands. This allows you to visualize the HTTP request/responses for training purposes. Let’s make life a bit easier.
+`apt-get install httpie
 `{{execute}}
 
+Now, let’s test and verify Kong is running and available on the Admin API using an HTTP Get command:
+
+`
+http get http://docker:8001/
+`{{execute}}

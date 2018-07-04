@@ -6,12 +6,14 @@
     "time": "15-30 minutes",
     "details": {
         "steps": [
-            { "title": "Sandox", "text": "step1.md" }
+            { "title": "Sandox", "text": "step1.md", "code": "env-init.sh"},
+            { "title": "Verify Installation", "text": "step2.md" },
+            { "title": "KONG GUI", "text": "step3.md" }
         ],
         "intro": {
             "text": "intro.md",
             "courseData": "courseBase.sh",
-            "credits": ""
+            "credits": "Developed in partnership with SIMPLrU"
         },
         "finish": {
             "text": "finish.md"

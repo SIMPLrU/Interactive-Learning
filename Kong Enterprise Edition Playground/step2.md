@@ -1,12 +1,22 @@
-This lab uses PostgreSQL container. Let's go ahead and install it.  
 
-`
-docker run -d --name kong-database \
-              --network=kong-net \
-              -p 5432:5432 \
-              -e "POSTGRES_USER=kong" \
-              -e "POSTGRES_DB=kong" \
-              postgres:9.6
-`{{execute}}
+# ACCESS KONG BASH
 
-Verify that database is installed with this command: `docker ps `{{execute}}
+Access the Kong container bash
+
+Obtain Kong Container ID
+`docker ps`{{execute}}
+
+
+Run Docker bash command to access bash. 
+`docker exec -ti kong-ee /bin/sh`{{execute}}
+
+
+# RUN SOME KONG COMMANDS
+Run a Kong Version 
+`kong version`{{execute}}
+
+Run a Kong Check
+`kong check`{{execute}}
+
+Run a Kong Health
+`kong health`{{execute}}
