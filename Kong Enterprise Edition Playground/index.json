@@ -1,35 +1,13 @@
 {
     "pathwayTitle": "KONG",
-    "title": "KONG: INSTALL KONG USING DOCKER v.0.6",
-    "description": "In this Learning Lab, you install Kong using docker.",
+    "title": "KONG ENTERPIRSE EDITION PLAYGROUND v.0.5",
+    "description": "Playground for Kong E.E.",
     "difficulty": "Easy",
-    "time": "5-10 minutes",
+    "time": "15-30 minutes",
     "details": {
         "steps": [
-            {
-                "title": "Create a Docker Network",
-                "text": "step1.md"
-            },
-            {
-                "title": "Install and Start your Database",
-                "text": "step2.md"
-            },
-            {
-                "title": "Prepare your Database",
-                "text": "step3.md"
-            },
-            {
-                "title": "Install and Start Kong",
-                "text": "step4.md"
-            },
-            {
-                "title": "Verify Kong Install",
-                "text": "step5.md"
-            },
-            {
-                "title": "Install HTTPie",
-                "text": "step6.md"
-            }
+            { "title": "Sandox", "text": "step1.md" }
+//            { "title": "Install HTTPie", "text": "step6.md" }
         ],
         "intro": {
             "text": "intro.md",
