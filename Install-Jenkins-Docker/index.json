@@ -12,7 +12,6 @@
             },
             {
                 "title": "Load and Launch Dashboard",
-                "code": "env-init.sh",
                 "text": "step2.md"
             },
             {
@@ -48,7 +47,7 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "jenkins",
+        "imageid": "docker",
         "port": 8080
     }
 }
