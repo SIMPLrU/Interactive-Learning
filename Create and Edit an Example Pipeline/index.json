@@ -1,0 +1,53 @@
+{
+    "pathwayTitle": "CLOUDBEES",
+    "title": "CREATE AND EDIT AN EXAMPLE PIPELINE v.0.5",
+    "description": "In this Learning Lab, you will create your first pipeline using Blue Ocean",
+    "difficulty": "Easy",
+    "time": "10-15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Access your Jenkins Instance",
+                "text": "step1.md"
+            },
+            {
+                "title": "Create a new Pipeline",
+                "text": "step2.md"
+            },
+            {
+                "title": "Edit a Pipeline",
+                "text": "step3.md"
+            },
+            {
+                "title": "Use the Blue Ocean Pipeline Code Editor",
+                "text": "step4.md"
+            },
+            {
+                "title": "Solution",
+                "text": "step5.md"
+            },
+            {
+                "title": "CONGRATULATIONS",
+                "text": "step6.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "jenkins",
+        "port": 8080
+    }
+}
