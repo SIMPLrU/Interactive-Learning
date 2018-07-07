@@ -42,7 +42,7 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboard": { "name": "Jen", "port": 8080, "host": "client01" },
+        "dashboard": [{ "name": "Jen", "port": 8080, "host": "client01" }],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
