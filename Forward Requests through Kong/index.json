@@ -1,0 +1,49 @@
+{
+    "pathwayTitle": "KONG",
+    "title": "KONG:FOWARD REQUEST THROUGH KONG v.1.0",
+    "description": "In this Learning Lab, you will forward request through Kong.",
+    "difficulty": "Easy",
+    "time": "10-15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Pre-Loading Environment",
+                "text": "step1.md"
+            },
+            {
+                "title": "Add Your Service Using the Admin API",
+                "text": "step2.md"
+            },
+            {
+                "title": "Verify Service is Created",
+                "text": "step3.md"
+            },
+            {
+                "title": "Add a Route for the Service",
+                "text": "step4.md"
+            },
+            {
+                "title": "Verify: Forward Your Requests Through Kong",
+                "text": "step5.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Kong GUI",
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker",
+        "port": 8001
+    }
+}
