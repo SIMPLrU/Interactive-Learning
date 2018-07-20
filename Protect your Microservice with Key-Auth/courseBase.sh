@@ -10,5 +10,5 @@ docker run -d --name kong --network=kong-net -e "KONG_DATABASE=postgres" -e "KON
 sleep 1s   
 curl -i -X POST --url http://docker:8001/services/ --data 'name=example-service' --data 'url=http://mockbin.org/requests'   
 curl -i -X POST --url http://docker:8001/services/example-service/routes --data 'hosts[]=example.com'   
-sleep 1s   
-   
+sleep 3s
+echo y | apt-get install httpie
