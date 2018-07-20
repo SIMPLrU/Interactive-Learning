@@ -1,6 +1,6 @@
 {
     "pathwayTitle": "KONG",
-    "title": "KONG: INSTALL KONG USING DOCKER v.0.6",
+    "title": "KONG: INSTALL KONG USING DOCKER v.1.0",
     "description": "In this Learning Lab, you install Kong using docker.",
     "difficulty": "Easy",
     "time": "5-10 minutes",
