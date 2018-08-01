@@ -1,1 +1,0 @@
-# TO SHOW DEMO MOVE courseBase.sh script here:
